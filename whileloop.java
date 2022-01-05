@@ -12,18 +12,18 @@ public class whileloop {
 
         }
 
-        /*
-         * print 1 to n where n is given by user
-         */
-        Scanner input = new Scanner(System.in);
-        System.out.print("enter the number: ");
-        int nu = input.nextInt();
-        int i = 1;
-        while (i <= nu) {
-            System.out.println(i);
-            i++;
+        try (/*
+              * print 1 to n where n is given by user
+              */
+                Scanner input = new Scanner(System.in)) {
+            System.out.print("enter the number: ");
+            int nu = input.nextInt();
+            int i = 1;
+            while (i <= nu) {
+                System.out.println(i);
+                i++;
+            }
         }
-
         /*
          * Do while loop
          * in this the loop execute atleast one time
