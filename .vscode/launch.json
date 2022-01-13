@@ -1,0 +1,237 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch array2d",
+            "request": "launch",
+            "mainClass": "Arrays.array2d",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch array2dinput",
+            "request": "launch",
+            "mainClass": "Arrays.array2dinput",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrayinput",
+            "request": "launch",
+            "mainClass": "Arrays.arrayinput",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch arraylist",
+            "request": "launch",
+            "mainClass": "Arrays.arraylist",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch basic",
+            "request": "launch",
+            "mainClass": "Arrays.basic",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverseofarray",
+            "request": "launch",
+            "mainClass": "Arrays.reverseofarray",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch swap",
+            "request": "launch",
+            "mainClass": "Arrays.swap",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch calculator",
+            "request": "launch",
+            "mainClass": "calculator",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch character",
+            "request": "launch",
+            "mainClass": "character",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch condition",
+            "request": "launch",
+            "mainClass": "condition",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch countingoccurence",
+            "request": "launch",
+            "mainClass": "countingoccurence",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch fibonciiseries",
+            "request": "launch",
+            "mainClass": "fibonciiseries",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch forloop",
+            "request": "launch",
+            "mainClass": "forloop",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch methodoverloading",
+            "request": "launch",
+            "mainClass": "functions.methodoverloading",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch returnstring",
+            "request": "launch",
+            "mainClass": "functions.returnstring",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch shadow",
+            "request": "launch",
+            "mainClass": "functions.shadow",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum",
+            "request": "launch",
+            "mainClass": "functions.sum",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch swap(1)",
+            "request": "launch",
+            "mainClass": "functions.swap",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch varargs",
+            "request": "launch",
+            "mainClass": "functions.varargs",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch largestnumber",
+            "request": "launch",
+            "mainClass": "largestnumber",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch linear",
+            "request": "launch",
+            "mainClass": "linandbinarysearch.linear",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch minandmax",
+            "request": "launch",
+            "mainClass": "linandbinarysearch.minandmax",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch searchinsring",
+            "request": "launch",
+            "mainClass": "linandbinarysearch.searchinsring",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverseofnumber",
+            "request": "launch",
+            "mainClass": "reverseofnumber",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch switchcase",
+            "request": "launch",
+            "mainClass": "switchcase",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch upperorlowercase",
+            "request": "launch",
+            "mainClass": "upperorlowercase",
+            "projectName": "java_1c4bece7"
+        },
+        {
+            "type": "java",
+            "name": "Launch whileloop",
+            "request": "launch",
+            "mainClass": "whileloop",
+            "projectName": "java_1c4bece7"
+        }
+    ]
+}
