@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch operators",
+            "request": "launch",
+            "mainClass": "basicprograms.operators",
+            "projectName": "java_1c4bece7"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
