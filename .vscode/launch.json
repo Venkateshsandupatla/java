@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch determinematrixbyrotationby90",
+      "request": "launch",
+      "mainClass": "Arrays.determinematrixbyrotationby90",
+      "projectName": "java_1c4bece7"
+    },
+    {
+      "type": "java",
       "name": "Launch addtoarrayformofinteger",
       "request": "launch",
       "mainClass": "Arrays.addtoarrayformofinteger",
