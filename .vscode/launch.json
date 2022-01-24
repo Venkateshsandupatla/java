@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch addtoarrayformofinteger",
+      "request": "launch",
+      "mainClass": "Arrays.addtoarrayformofinteger",
+      "projectName": "java_1c4bece7"
+    },
+    {
+      "type": "java",
+      "name": "Launch matrixdiagonalsum",
+      "request": "launch",
+      "mainClass": "Arrays.matrixdiagonalsum",
+      "projectName": "java_1c4bece7"
+    },
+    {
+      "type": "java",
+      "name": "Launch flipimage",
+      "request": "launch",
+      "mainClass": "Arrays.flipimage",
+      "projectName": "java_1c4bece7"
+    },
+    {
+      "name": "Attach to Chrome",
+      "port": 9222,
+      "request": "attach",
+      "type": "pwa-chrome",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "type": "java",
       "name": "Launch areaofcircle",
       "request": "launch",
       "mainClass": "basicprograms.areaofcircle",
@@ -40,7 +68,10 @@
       "jdkPath": "${env:JAVA_HOME}/bin",
       "cwd": "${fileDirname}",
       "startupClass": "${fileBasenameNoExtension}",
-      "classpath": [".", "${fileDirname}"]
+      "classpath": [
+        ".",
+        "${fileDirname}"
+      ]
     },
     {
       "name": "Java Console App",
@@ -50,7 +81,10 @@
       "jdkPath": "${env:JAVA_HOME}/bin",
       "cwd": "${fileDirname}",
       "startupClass": "${fileBasenameNoExtension}",
-      "classpath": [".", "${fileDirname}"],
+      "classpath": [
+        ".",
+        "${fileDirname}"
+      ],
       "externalConsole": true
     },
     {
