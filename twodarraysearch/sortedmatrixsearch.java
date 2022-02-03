@@ -1,5 +1,7 @@
 package twodarraysearch;
 
+import java.util.Arrays;
+
 public class sortedmatrixsearch {
         public static void main(String[] args) {
 
@@ -9,23 +11,24 @@ public class sortedmatrixsearch {
                                 { 28, 29, 37, 49 },
                                 { 33, 34, 38, 50 }
                 };
-                int target = 37;
+                int target = 34;
                 int[] ans = result(mat, target);
-                System.out.println(ans);
+                System.out.println(Arrays.toString(ans));
         }
 
-        static int[] result(int[] mat, int target) {
+        static int[] result(int[][] mat, int target) {
                 int row = 0;
                 int col = mat[0].length - 1;
                 while (row < mat.length && col >= 0) {
-                        if (arr[row][col] == target) {
+                        if (mat[row][col] == target) {
                                 return new int[] { row, col };
-                        } else if (arr[row][col] > target) {
+                        } else if (mat[row][col] > target) {
                                 col--;
-                        } else if (arr[row][col] < target) {
+                        } else if (mat[row][col] < target) {
                                 row++;
                         }
                 }
+                return null;
 
         }
 }
