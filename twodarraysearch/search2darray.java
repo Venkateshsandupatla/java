@@ -4,7 +4,7 @@ public class search2darray {
     
     public static void main(String[] args) {
         int[][] matrix = {
-                            {1,2,3},
+                            {1,9,3},
                             {5,0,8}
         } ;
         
