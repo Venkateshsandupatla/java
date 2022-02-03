@@ -24,7 +24,7 @@ import java.util.List;
 public class addtoarrayformofinteger {
     public static void main(String[] args) {
         int[] num = { 1, 2, 0, 0 };
-        int k = 34;
+        int k = 31;
         List<Integer> ans = addToArrayForm(num, k);
         System.out.println(ans);
 
