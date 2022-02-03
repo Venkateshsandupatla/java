@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch search2darray",
+      "request": "launch",
+      "mainClass": "twodarraysearch.search2darray",
+      "projectName": "java_2b9f9ec9"
+    },
+    {
+      "type": "java",
       "name": "Launch sortedmatrixsearch",
       "request": "launch",
       "mainClass": "twodarraysearch.sortedmatrixsearch",
