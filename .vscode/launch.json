@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch clas",
+      "request": "launch",
+      "mainClass": "oops.clas",
+      "projectName": "java_2b9f9ec9"
+    },
+    {
+      "type": "java",
+      "name": "Launch addtoarrayformofinteger",
+      "request": "launch",
+      "mainClass": "Arrays.addtoarrayformofinteger",
+      "projectName": "java_2b9f9ec9"
+    },
+    {
+      "type": "java",
+      "name": "Launch bubble",
+      "request": "launch",
+      "mainClass": "sort.bubble",
+      "projectName": "java_2b9f9ec9"
+    },
+    {
+      "type": "java",
+      "name": "Launch a",
+      "request": "launch",
+      "mainClass": "a.a",
+      "projectName": "java_2b9f9ec9"
+    },
+    {
+      "type": "java",
+      "name": "Launch linear",
+      "request": "launch",
+      "mainClass": "linandbinarysearch.linear",
+      "projectName": "java_2b9f9ec9"
+    },
+    {
+      "type": "java",
+      "name": "Launch hello",
+      "request": "launch",
+      "mainClass": "hello",
+      "projectName": "java_2b9f9ec9"
+    },
+    {
+      "type": "java",
       "name": "Launch search2darray",
       "request": "launch",
       "mainClass": "twodarraysearch.search2darray",
