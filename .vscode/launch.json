@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch wrapperexample",
+      "request": "launch",
+      "mainClass": "oops.wrapperexample",
+      "projectName": "java_2b9f9ec9"
+    },
+    {
+      "type": "java",
       "name": "Launch clas",
       "request": "launch",
       "mainClass": "oops.clas",
@@ -138,10 +145,7 @@
       "jdkPath": "${env:JAVA_HOME}/bin",
       "cwd": "${fileDirname}",
       "startupClass": "${fileBasenameNoExtension}",
-      "classpath": [
-        ".",
-        "${fileDirname}"
-      ]
+      "classpath": [".", "${fileDirname}"]
     },
     {
       "name": "Java Console App",
@@ -151,10 +155,7 @@
       "jdkPath": "${env:JAVA_HOME}/bin",
       "cwd": "${fileDirname}",
       "startupClass": "${fileBasenameNoExtension}",
-      "classpath": [
-        ".",
-        "${fileDirname}"
-      ],
+      "classpath": [".", "${fileDirname}"],
       "externalConsole": true
     },
     {

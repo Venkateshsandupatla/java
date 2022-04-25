@@ -1,8 +1,5 @@
 package oops;
 
-import basicprograms.greeting;
-import functions.string;
-
 public class clas {
     public static void main(String[] args) {
         // lets creaate alist storing studdent list from the student class
@@ -45,6 +42,19 @@ public class clas {
         student rahul = new student(33, "rahullll", 66f);
         rahul.greeting(); // now we can see the power of this keyword , at once its see the abhi and then
                           // rahul
+
+        // now lets call one constructor and internally call another constructor
+        student newperson = new student();
+        System.out.println(newperson.name); // it prints the default name we given in the constructor as this(,,,)
+
+        // lets create two objects one will point to another
+        student one = new student(); // as we know that we have given the constructor has a default name
+        // lets create second object which is pointing to first object
+        student two = one; // this means one and two students are pointing to same refernce in heap memory
+        // lets change the value of name in one so that two also changes
+        one.name = "something nothing";
+        // now lets print the second name
+        System.out.println(two.name); // it prints the chnaged name which we done by one
     }
 }
 
@@ -65,6 +75,14 @@ class student {
 
     void changename(String newname) { // to use this function one has to pass the new name
         this.name = newname;
+    }
+
+    // creating another constructor and calling the student constructor with this
+    // constructor
+    // call constructor from another constucter
+    student() {
+        // this is how you call a constuctor from another constructor
+        this(13, "Default name", 89.5f);
     }
 
     // lets create a constructor
