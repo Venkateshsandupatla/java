@@ -8,5 +8,20 @@ public class Main {
         Human abhi = new Human("Abhilash", 28, 80000, true);
         System.out.println(venky.population);
         System.out.println(abhi.population);
+        // greeting(); // main is the static method , so we cannpt use non static inside
+        // a static method
+    }
+
+    // lets create a static method
+    static void fun() {
+        System.out.println("Its fun");
+        // greeting(); // here also it is static ethod so we canno use non static
+        // methods inside the
+        // static method
+    }
+
+    // this is a non-static function
+    void greeting() {
+        System.out.println("Hi");
     }
 }
