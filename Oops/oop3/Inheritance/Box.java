@@ -2,6 +2,8 @@ public class Box {
     double l;
     double h;
     double w;
+    private double a; // this varaible is only used / acccesible in only ths class we cannot use in
+                      // the child class
 
     // lets create constructor
     // constructor-1,this constructor is called when no parameters like l ,h,w are
