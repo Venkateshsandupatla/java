@@ -7,6 +7,9 @@ public class A {
     // lets create a private variable
     private int number;
 
+    // lets create a protected variable
+    protected int aa;
+
     // lets create getter and setter method for accessing and modifying the provate
     // varaible
     /// getter method
@@ -32,5 +35,13 @@ public class A {
         this.name = name;
         this.arr = arr;
         this.number = number;
+    }
+
+    public A(int num, String name, int[] arr, int number, int aa) {
+        this.num = num;
+        this.name = name;
+        this.arr = arr;
+        this.number = number;
+        this.aa = aa;
     }
 }
