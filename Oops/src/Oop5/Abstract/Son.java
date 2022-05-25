@@ -11,4 +11,5 @@ public class Son extends Parent {
     void partner() {
         System.out.println("I love kajal");
     }
+
 }

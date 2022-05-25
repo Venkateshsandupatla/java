@@ -9,6 +9,9 @@ public class Main {
         son.partner();
         daughter.career();
         daughter.partner();
+        // as we know that we cant create object of abstract class so we have to direct
+        // use it , like below
+        Parent.greetig();
 
     }
 }
